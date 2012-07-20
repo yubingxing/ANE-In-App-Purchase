@@ -70,11 +70,11 @@ void *AirInAppRefToSelf;
 - (void)productsRequest:(SKProductsRequest *)request didReceiveResponse:(SKProductsResponse *)response
 {
     
-    NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+    NSNumberFormatter *numberFormatter = [[[NSNumberFormatter alloc] init] autorelease];
     [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
     [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
     
-    NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
+    NSMutableDictionary *dictionary = [[[NSMutableDictionary alloc] init] autorelease];
     NSString *formattedString;
     
     for (SKProduct* product in [response products])
@@ -123,13 +123,15 @@ void *AirInAppRefToSelf;
 
     // purchase done
     // dispatch event
-    data = [[NSMutableDictionary alloc] init];
+    data = [[[NSMutableDictionary alloc] init] autorelease];
     [data setValue:[[transaction payment] productIdentifier] forKey:@"productId"];
     
     NSString* receiptString = [[[NSString alloc] initWithData:transaction.transactionReceipt encoding:NSUTF8StringEncoding] autorelease];
     [data setValue:receiptString forKey:@"receipt"];
     [data setValue:@"AppStore"   forKey:@"receiptType"];
     
+    [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
+
     FREDispatchStatusEventAsync(AirInAppCtx, (uint8_t*)"PURCHASE_SUCCESSFUL", (uint8_t*)[[data JSONString] UTF8String]); 
 }
 
@@ -142,7 +144,7 @@ void *AirInAppRefToSelf;
     [[transaction payment] productIdentifier];
     [[transaction error] code];
     
-    data = [[NSMutableDictionary alloc] init];
+    data = [[[NSMutableDictionary alloc] init] autorelease];
     [data setValue:[NSNumber numberWithInteger:[[transaction error] code]]  forKey:@"code"];
     [data setValue:[[transaction error] localizedFailureReason] forKey:@"FailureReason"];
     [data setValue:[[transaction error] localizedDescription] forKey:@"FailureDescription"];
@@ -237,7 +239,7 @@ void *AirInAppRefToSelf;
 // make a purchase
 DEFINE_ANE_FUNCTION(makePurchase)
 {
-    
+    NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
     uint32_t stringLength;
     const uint8_t *string1;
     //FREDispatchStatusEventAsync(context, (uint8_t*) "DEBUG", (uint8_t*) [@"purchase: getting product id" UTF8String]);
@@ -262,6 +264,7 @@ DEFINE_ANE_FUNCTION(makePurchase)
     
     [[SKPaymentQueue defaultQueue] addPayment:payment];
     
+    [pool release];
     return nil;
 }
 
@@ -269,7 +272,7 @@ DEFINE_ANE_FUNCTION(makePurchase)
 // check if the user can make a purchase
 DEFINE_ANE_FUNCTION(userCanMakeAPurchase)
 {
-    
+    NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
     BOOL canMakePayment = [SKPaymentQueue canMakePayments];
     
     if (canMakePayment)
@@ -280,6 +283,7 @@ DEFINE_ANE_FUNCTION(userCanMakeAPurchase)
     {
         FREDispatchStatusEventAsync(context, (uint8_t*) "PURCHASE_DISABLED", (uint8_t*) [@"No" UTF8String]);
     }
+    [pool release];
     return nil;
 }
 
@@ -289,12 +293,13 @@ DEFINE_ANE_FUNCTION(userCanMakeAPurchase)
 // arg : array of string (string = product identifier)
 DEFINE_ANE_FUNCTION(getProductsInfo)
 {        
+    NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
     FREObject arr = argv[0]; // array
     uint32_t arr_len; // array length
     
     FREGetArrayLength(arr, &arr_len);
 
-    NSMutableSet* productsIdentifiers = [[NSMutableSet alloc] init];
+    NSMutableSet* productsIdentifiers = [[[NSMutableSet alloc] init] autorelease];
      
     for(int32_t i=arr_len-1; i>=0;i--){
                 
@@ -311,18 +316,20 @@ DEFINE_ANE_FUNCTION(getProductsInfo)
         [productsIdentifiers addObject:productIdentifier];
     }
     
-    SKProductsRequest* request = [[SKProductsRequest alloc] initWithProductIdentifiers:productsIdentifiers];
+    SKProductsRequest* request = [[[SKProductsRequest alloc] initWithProductIdentifiers:productsIdentifiers] autorelease];
     
     
     [(AirInAppPurchase*)AirInAppRefToSelf sendRequest:request AndContext:context];
     
-    
+    [pool release];
     return nil;
 }
 
 // remove purchase from queue.
 DEFINE_ANE_FUNCTION(removePurchaseFromQueue)
 {
+    NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
+    
     uint32_t stringLength;
     const uint8_t *string1;
     if (FREGetObjectAsUTF8(argv[0], &stringLength, &string1) != FRE_OK)
@@ -367,6 +374,7 @@ DEFINE_ANE_FUNCTION(removePurchaseFromQueue)
         }
     }
     
+    [pool release];
     return nil;
 }
 
