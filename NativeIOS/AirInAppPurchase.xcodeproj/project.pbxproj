@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3684A4160C85AB00C0C40C /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3684A3160C85AB00C0C40C /* FlashRuntimeExtensions.h */; };
 		9DA6C0AD15B56BF5005E9BD2 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA6C0AB15B56BF5005E9BD2 /* JSONKit.h */; };
 		9DA6C0AE15B56BF5005E9BD2 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6C0AC15B56BF5005E9BD2 /* JSONKit.m */; };
 		BFA8AB071527AFB700845071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA8AB061527AFB700845071 /* Foundation.framework */; };
 		BFA8AB0D1527AFB700845071 /* AirInAppPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA8AB0C1527AFB700845071 /* AirInAppPurchase.m */; };
 		BFA8AB141527B02300845071 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA8AB131527B02300845071 /* StoreKit.framework */; };
-		BFA8AB1E1527FACD00845071 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA8AB1D1527FACD00845071 /* FlashRuntimeExtensions.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B3684A3160C85AB00C0C40C /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 		9DA6C0AB15B56BF5005E9BD2 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		9DA6C0AC15B56BF5005E9BD2 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		BFA8AB031527AFB700845071 /* libAirInAppPurchase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAirInAppPurchase.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,7 +25,6 @@
 		BFA8AB0B1527AFB700845071 /* AirInAppPurchase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirInAppPurchase.h; sourceTree = "<group>"; };
 		BFA8AB0C1527AFB700845071 /* AirInAppPurchase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirInAppPurchase.m; sourceTree = "<group>"; };
 		BFA8AB131527B02300845071 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		BFA8AB1D1527FACD00845071 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = "/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/include/FlashRuntimeExtensions.h"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 		BFA8AB081527AFB700845071 /* AirInAppPurchase */ = {
 			isa = PBXGroup;
 			children = (
+				1B3684A3160C85AB00C0C40C /* FlashRuntimeExtensions.h */,
 				9DA6C0AB15B56BF5005E9BD2 /* JSONKit.h */,
 				9DA6C0AC15B56BF5005E9BD2 /* JSONKit.m */,
-				BFA8AB1D1527FACD00845071 /* FlashRuntimeExtensions.h */,
 				BFA8AB0B1527AFB700845071 /* AirInAppPurchase.h */,
 				BFA8AB0C1527AFB700845071 /* AirInAppPurchase.m */,
 				BFA8AB091527AFB700845071 /* Supporting Files */,
@@ -94,8 +94,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA8AB1E1527FACD00845071 /* FlashRuntimeExtensions.h in Headers */,
 				9DA6C0AD15B56BF5005E9BD2 /* JSONKit.h in Headers */,
+				1B3684A4160C85AB00C0C40C /* FlashRuntimeExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

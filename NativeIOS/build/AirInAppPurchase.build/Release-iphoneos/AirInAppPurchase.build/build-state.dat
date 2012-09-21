@@ -2,191 +2,191 @@ TAirInAppPurchase
 v5
 r1
 cCheck dependencies
-cProcessPCH /var/folders/_s/twp7k4316wz718vqycf7lrmm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-ajnivhlvbsjcmjgddpypwtbfcgyy/AirInAppPurchase-Prefix.pch.gch AirInAppPurchase/AirInAppPurchase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cLibtool /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/libAirInAppPurchase.a normal armv7
+cProcessPCH /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-esphtihksxixkjbuuzwzaaramqmx/AirInAppPurchase-Prefix.pch.gch AirInAppPurchase/AirInAppPurchase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLibtool /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/libAirInAppPurchase.a normal armv7
 
-N/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/include/FlashRuntimeExtensions.h
-c000000004FD75BA00000000000004FCB
-t1339513760
-s20427
-i<stdint.h>
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
 c000000004F453DF20000000000000110
 t1329937906
 s272
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
-c000000004FD8C2850000000000007AC8
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
+c00000000501B2A600000000000007AC8
+t1343957600
 s31432
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDictionary.h
-c000000004FD8C28500000000000080D0
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDictionary.h
+c00000000501B2A6000000000000080D0
+t1343957600
 s32976
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h
-c000000004FD8C2850000000000000EAB
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h
+c00000000501B2A600000000000000EAB
+t1343957600
 s3755
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
-c000000004FD8C285000000000000B25F
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c00000000501B2A61000000000000B25F
+t1343957601
 s45663
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004FD8C286000000000052C940
-t1339605638
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000501B2A64000000000052C940
+t1343957604
 s5425472
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004FD8C2850000000000001534
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000501B2A640000000000001534
+t1343957604
 s5428
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
-c000000004FD8C2850000000000001ADB
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c00000000501B2A640000000000001ADB
+t1343957604
 s6875
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h
-c000000004FD8C2850000000000000179
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h
+c00000000501B2A640000000000000179
+t1343957604
 s377
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSData.h
-c000000004FD8C285000000000000183B
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSData.h
+c00000000501B2A64000000000000183B
+t1343957604
 s6203
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
-c000000004FD8C2850000000000000E81
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c00000000501B2A640000000000000E81
+t1343957604
 s3713
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
-c000000004FD8C2850000000000001B2E
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c00000000501B2A640000000000001B2E
+t1343957604
 s6958
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
-c000000004FD8C2850000000000002186
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
+c00000000501B2A640000000000002186
+t1343957604
 s8582
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNull.h
-c000000004FD8C28500000000000000B8
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNull.h
+c00000000501B2A6400000000000000B8
+t1343957604
 s184
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
-c000000004FD8C2850000000000003B3D
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c00000000501B2A640000000000003B3D
+t1343957604
 s15165
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
-c000000004FD8C285000000000000603B
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c00000000501B2A65000000000000603B
+t1343957605
 s24635
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.h
-c000000004FD8C285000000000000016E
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.h
+c00000000501B2A67000000000000016E
+t1343957607
 s366
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
-c000000004FD8C2850000000000010230
-t1339605637
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c00000000501B2A670000000000010230
+t1343957607
 s66096
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/AvailabilityMacros.h
-c000000004FD8C2860000000000007A5E
-t1339605638
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/AvailabilityMacros.h
+c00000000501B2A730000000000007A5E
+t1343957619
 s31326
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/TargetConditionals.h
-c000000004FD8C28700000000000031E9
-t1339605639
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/TargetConditionals.h
+c00000000501B2A8500000000000031E9
+t1343957637
 s12777
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/assert.h
-c000000004FD8C2860000000000000F6E
-t1339605638
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/assert.h
+c00000000501B2A730000000000000F6E
+t1343957619
 s3950
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/math.h
-c000000004FD8C28700000000000004F1
-t1339605639
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/math.h
+c00000000501B2A8200000000000004F1
+t1343957634
 s1265
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/objc/runtime.h
-c000000004FD8C28700000000000066FC
-t1339605639
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/objc/runtime.h
+c00000000501B2A8200000000000066FC
+t1343957634
 s26364
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/stdint.h
-c000000004FD8C28700000000000018EF
-t1339605639
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/stdint.h
+c00000000501B2A8300000000000018EF
+t1343957635
 s6383
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/stdio.h
-c000000004FD8C2870000000000004763
-t1339605639
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/stdio.h
+c00000000501B2A830000000000004763
+t1343957635
 s18275
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/stdlib.h
-c000000004FD8C28700000000000030A7
-t1339605639
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/stdlib.h
+c00000000501B2A8300000000000030A7
+t1343957635
 s12455
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/string.h
-c000000004FD8C2870000000000001A3A
-t1339605639
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/string.h
+c00000000501B2A830000000000001A3A
+t1343957635
 s6714
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/sys/errno.h
-c000000004FD8C2870000000000002A36
-t1339605639
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/sys/errno.h
+c00000000501B2A830000000000002A36
+t1343957635
 s10806
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
-c000000004FD8C2880000000000000D03
-t1339605640
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c00000000501B2A8D0000000000000D03
+t1343957645
 s3331
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h
-c000000004FD8C2880000000000003197
-t1339605640
+N/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h
+c00000000501B2A8D0000000000003197
+t1343957645
 s12695
 
-N/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase-Prefix.pch
-c00000000500533C700000000000003F4
-t1342518215
+N/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase-Prefix.pch
+c00000000505C474A00000000000003F4
+t1348224842
 s1012
 i<Foundation/Foundation.h>
 
-N/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.h
-c000000005005360F0000000000000731
-t1342518799
+N/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.h
+c00000000505C4A7A0000000000000731
+t1348225658
 s1841
 i<Foundation/Foundation.h>
 i<StoreKit/StoreKit.h>
 i"FlashRuntimeExtensions.h"
 i"JSONKit.h"
 
-N/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m
-c000000005005365D0000000000003CF4
-t1342518877
-s15604
+N/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m
+c00000000505C4B1800000000000042AC
+t1348225816
+s17068
 i"AirInAppPurchase.h"
 
-N/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.h
-c000000004FE62A7A0000000000002DBE
-t1340484218
+N/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/FlashRuntimeExtensions.h
+c00000000505A7B730000000000004D54
+t1348107123
+s19796
+i<stdint.h>
+
+N/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.h
+c00000000505C49FE0000000000002DBE
+t1348225534
 s11710
 i<stddef.h>
 i<stdint.h>
@@ -200,9 +200,9 @@ i<Foundation/NSError.h>
 i<Foundation/NSObjCRuntime.h>
 i<Foundation/NSString.h>
 
-N/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m
-c000000004FE62A7A000000000002B44F
-t1340484218
+N/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m
+c00000000505C49FE000000000002B44F
+t1348225534
 s177231
 i<stdio.h>
 i<stdlib.h>
@@ -226,78 +226,80 @@ i<Foundation/NSException.h>
 i<Foundation/NSNull.h>
 i<Foundation/NSObjCRuntime.h>
 
-N/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.LinkFileList
-c00000000500538380000000000000155
-t1342519352
-s341
+N/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.LinkFileList
+c00000000505C5B710000000000000165
+t1348230001
+s357
 
-N/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o
+N/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o
 t2
 s0
 
-N/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o
+N/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o
 t2
 s0
 
-N/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/libAirInAppPurchase.a
+N/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/libAirInAppPurchase.a
 t2
 s0
 
-N/var/folders/_s/twp7k4316wz718vqycf7lrmm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-ajnivhlvbsjcmjgddpypwtbfcgyy/AirInAppPurchase-Prefix.pch.gch
+N/var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-esphtihksxixkjbuuzwzaaramqmx/AirInAppPurchase-Prefix.pch.gch
 t2
 s0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2a9150b86fb5b541^65565fb86fb5b541^---0#1#0#--18"Check dependencies36"3D991BBC-2411-4E2D-B402-2EEEC160B8E1-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies302ff4f0920cb641^da8e05f1920cb641^---0#1#0#--18"Check dependencies36"9BC2F094-E009-4EF2-BB6C-98D081A18806-
 
-CCompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s364212152.631276
-e364212152.737533
+CCompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s369922801.653748
+e369922801.874282
 r1
 xCompileC
 xbuild/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o
-x/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m
+x/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m29afa1b86fb5b541^18cfbcb86fb5b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m0000000000000000^2832"CompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o AirInAppPurchase/AirInAppPurchase.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/bin:/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/lib/aot/bin/as:/Applications/Adobe Flash CS5.5/Players/Flash Player.app/Contents/MacOS"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-generated-files.hmap -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-own-target-headers.hmap -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-all-target-headers.hmap -iquote /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-project-headers.hmap -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/include -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources/armv7 -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources -F/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos -include /var/folders/_s/twp7k4316wz718vqycf7lrmm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-ajnivhlvbsjcmjgddpypwtbfcgyy/AirInAppPurchase-Prefix.pch -c /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m -o /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o36"753E307C-5D34-4228-BC50-34796ABAA182-
+o/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m: In function ‘getProductsInfo’:
+o/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m:316: warning: unused variable ‘pool’
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.mee93a7f1920cb641^92cfdff1920cb641^-297"/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m: In function ‘getProductsInfo’:/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m:316: warning: unused variable ‘pool’1(21%IDEActivityLogMessage2@26"Unused variable ‘pool’-369922801#142#147#-1#-23%DVTTextDocumentLocation3@125"file://localhost/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m0000000000000000^315#18446744073709551615#315#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--0#0#0#-19%DVTDocumentLocation4@125"file://localhost/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m0000000000000000^2862"CompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o AirInAppPurchase/AirInAppPurchase.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode4.4.1.app/Contents/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -isysroot /Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-generated-files.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-own-target-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-all-target-headers.hmap -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-project-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/include -I/Applications/Xcode4.4.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources/armv7 -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources -F/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos -include /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-esphtihksxixkjbuuzwzaaramqmx/AirInAppPurchase-Prefix.pch -c /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase.m -o /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.o36"20E76705-0626-483C-9AFE-6A570768E2FA-
 
-CCompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s364212152.631275
-e364212153.498518
+CCompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s369922801.653734
+e369922802.854312
 r1
 xCompileC
 xbuild/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o
-x/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m
+x/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m19afa1b86fb5b541^8c9e7fb96fb5b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m0000000000000000^2796"CompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o AirInAppPurchase/JSONKit.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/bin:/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/lib/aot/bin/as:/Applications/Adobe Flash CS5.5/Players/Flash Player.app/Contents/MacOS"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-generated-files.hmap -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-own-target-headers.hmap -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-all-target-headers.hmap -iquote /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-project-headers.hmap -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/include -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources/armv7 -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources -F/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos -include /var/folders/_s/twp7k4316wz718vqycf7lrmm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-ajnivhlvbsjcmjgddpypwtbfcgyy/AirInAppPurchase-Prefix.pch -c /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m -o /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o36"404FBBED-9D54-41C0-8B8D-B20DA8ED1B1E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.md192a7f1920cb641^4eb5daf2920cb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m0000000000000000^2826"CompileC build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o AirInAppPurchase/JSONKit.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode4.4.1.app/Contents/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -isysroot /Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-generated-files.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-own-target-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-all-target-headers.hmap -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-project-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/include -I/Applications/Xcode4.4.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources/armv7 -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources -F/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos -include /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-esphtihksxixkjbuuzwzaaramqmx/AirInAppPurchase-Prefix.pch -c /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/JSONKit.m -o /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/JSONKit.o36"A725A77E-E7CC-44DA-87E0-584D9F9DEA55-
 
-CLibtool /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/libAirInAppPurchase.a normal armv7
-s364212153.505321
-e364212153.512819
+CLibtool /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/libAirInAppPurchase.a normal armv7
+s369922802.861572
+e369922802.875788
 r1
 xLibtool
-x/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/libAirInAppPurchase.a
+x/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/libAirInAppPurchase.a
 xnormal
 xarmv7
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Libtool build/Release-iphoneos/libAirInAppPurchase.a normal armv7ee7681b96fb5b541^bf4983b96fb5b541^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1292"Libtool build/Release-iphoneos/libAirInAppPurchase.a normal armv7    cd /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/bin:/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/lib/aot/bin/as:/Applications/Adobe Flash CS5.5/Players/Flash Player.app/Contents/MacOS"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos -filelist /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.LinkFileList -ObjC -framework StoreKit -framework Foundation -o /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/libAirInAppPurchase.a36"BE03DB75-37BF-44A0-A64E-BF5A8D5CF257-
+o/Applications/Xcode4.4.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Libtool build/Release-iphoneos/libAirInAppPurchase.a normal armv764cddcf2920cb641^c537e0f2920cb641^-164"/Applications/Xcode4.4.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1168"Libtool build/Release-iphoneos/libAirInAppPurchase.a normal armv7    cd /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode4.4.1.app/Contents/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Applications/Xcode4.4.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos -filelist /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/Objects-normal/armv7/AirInAppPurchase.LinkFileList -ObjC -framework StoreKit -framework Foundation -o /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/libAirInAppPurchase.a36"A6099E48-FCA0-4765-B672-DAFB2CA4F56E-
 
-CProcessPCH /var/folders/_s/twp7k4316wz718vqycf7lrmm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-ajnivhlvbsjcmjgddpypwtbfcgyy/AirInAppPurchase-Prefix.pch.gch AirInAppPurchase/AirInAppPurchase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
-s364212152.378416
-e364212152.622921
+CProcessPCH /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-esphtihksxixkjbuuzwzaaramqmx/AirInAppPurchase-Prefix.pch.gch AirInAppPurchase/AirInAppPurchase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s369922801.030157
+e369922801.646596
 r1
 xProcessPCH
-x/var/folders/_s/twp7k4316wz718vqycf7lrmm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-ajnivhlvbsjcmjgddpypwtbfcgyy/AirInAppPurchase-Prefix.pch.gch
+x/var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-esphtihksxixkjbuuzwzaaramqmx/AirInAppPurchase-Prefix.pch.gch
 xAirInAppPurchase/AirInAppPurchase-Prefix.pch
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile AirInAppPurchase/AirInAppPurchase-Prefix.pcha0f960b86fb5b541^4b779fb86fb5b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase-Prefix.pch0000000000000000^2749"ProcessPCH /var/folders/_s/twp7k4316wz718vqycf7lrmm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-ajnivhlvbsjcmjgddpypwtbfcgyy/AirInAppPurchase-Prefix.pch.gch AirInAppPurchase/AirInAppPurchase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/bin:/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/lib/aot/bin/as:/Applications/Adobe Flash CS5.5/Players/Flash Player.app/Contents/MacOS"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-generated-files.hmap -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-own-target-headers.hmap -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-all-target-headers.hmap -iquote /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-project-headers.hmap -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/include -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources/armv7 -I/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources -F/Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos -c /Users/gnascim/Code/Personal/FORKED/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase-Prefix.pch -o /var/folders/_s/twp7k4316wz718vqycf7lrmm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-ajnivhlvbsjcmjgddpypwtbfcgyy/AirInAppPurchase-Prefix.pch.gch36"531F5D42-AC3F-4A1F-BB8F-55C037126084-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile AirInAppPurchase/AirInAppPurchase-Prefix.pcheeec07f1920cb641^db86a5f1920cb641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase-Prefix.pch0000000000000000^2771"ProcessPCH /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-esphtihksxixkjbuuzwzaaramqmx/AirInAppPurchase-Prefix.pch.gch AirInAppPurchase/AirInAppPurchase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode4.4.1.app/Contents/Developer/usr/bin:/sw/bin:/sw/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/X11R6/bin"    /Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -Wuninitialized -isysroot /Applications/Xcode4.4.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-generated-files.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-own-target-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-all-target-headers.hmap -iquote /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/AirInAppPurchase-project-headers.hmap -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos/include -I/Applications/Xcode4.4.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources/armv7 -I/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/AirInAppPurchase.build/Release-iphoneos/AirInAppPurchase.build/DerivedSources -F/Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/build/Release-iphoneos -c /Users/letang/Documents/Flash_workspace/ane/ANE-In-App-Purchase/NativeIOS/AirInAppPurchase/AirInAppPurchase-Prefix.pch -o /var/folders/4x/fsf9_1j14gnc7k5y1nl56tfm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/AirInAppPurchase-Prefix-esphtihksxixkjbuuzwzaaramqmx/AirInAppPurchase-Prefix.pch.gch36"C585EF59-4824-4F01-A5D6-F926388F817D-
 
