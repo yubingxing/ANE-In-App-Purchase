@@ -23,11 +23,14 @@
 
 @interface AirInAppPurchase : NSObject <SKPaymentTransactionObserver, SKProductsRequestDelegate>
 
++ (AirInAppPurchase*) sharedInstance;
+
 - (void) sendRequest:(SKRequest*)request AndContext:(FREContext*)ctx;
 - (void) completeTransaction:(SKPaymentTransaction*)transaction;
 - (void) failedTransaction:(SKPaymentTransaction*)transaction;
 - (void) purchasingTransaction:(SKPaymentTransaction*)transaction;
 - (void) restoreTransaction:(SKPaymentTransaction*)transaction;
+
 @end
 
 FREObject makePurchase(FREContext context, void* functionData, uint32_t argc, FREObject argv[]);
